@@ -1,2 +1,45 @@
+body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #1c1c1c, #333);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+      margin: 0;
+    }
 
+    /* Movie Poster */
+    .moviePic {
+      height: 400px;
+      width: auto;
+      opacity: 0.9;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+      transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .moviePic:hover {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+
+    /* Movie Description */
+    .movieDetail {
+      position: relative;
+      top: 30px;
+      width: 80%;
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    /* Optional extra styling for better appearance */
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+      color: #ffcc00;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
 /* Your CSS Code here. */
